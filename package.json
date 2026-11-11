@@ -1,0 +1,32 @@
+{
+  "name": "projeto-sqlite-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "dev": "tsx watch src/index.ts",
+  "build": "tsc",
+  "start": "node dist/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santos-Dev-iniciante/projeto-sqlite-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santos-Dev-iniciante/projeto-sqlite-typescript/issues"
+  },
+  "homepage": "https://github.com/Santos-Dev-iniciante/projeto-sqlite-typescript#readme",
+  "dependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "better": "^0.1.0",
+    "express": "^5.3.0",
+    "sqlite3": "^6.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
